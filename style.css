@@ -1,0 +1,156 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 1rem;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.note-list {
+	flex: 1;
+	margin-right: 1rem;
+}
+
+.note-list h2 {
+	margin-top: 0;
+}
+
+.note-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.note-list li {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+
+.note-list li h3 {
+	margin-top: 0;
+}
+
+.note-list li p {
+	margin: 0;
+}
+
+.note-list li small {
+	display: block;
+	margin-top: 0.5rem;
+	color: #666;
+}
+
+.note-list li .actions {
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.note-list li button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.note-list li button:hover {
+	background-color: #555;
+}
+
+.note-form {
+	flex: 1;
+}
+
+.note-form h2 {
+	margin-top: 0;
+}
+
+.note-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.note-form label {
+	margin-top: 1rem;
+}
+
+.note-form input,
+.note-form select,
+.note-form textarea {
+	padding: 0.5rem;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	font-size: 1rem;
+}
+
+.note-form textarea {
+	height: 10rem;
+	resize: vertical;
+}
+
+.note-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+	align-self: flex-end;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.note-form button[type="submit"]:hover {
+	background-color: #555;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
